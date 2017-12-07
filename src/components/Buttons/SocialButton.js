@@ -1,4 +1,5 @@
 import React from 'react'
+import FontAwesome from 'react-fontawesome';
 // styled components have been imported for you already
 import styled from 'styled-components'
 
@@ -12,23 +13,24 @@ const Button = styled.a`
   border-radius: 100%;
   text-align: center;
   line-height: 45px;  
-  color: white;
+  color: ${props => props.color};
   font-size: ${props => props.size / 2}px;
-  border: ${props => props.outline ? 'solid 2px white' : 0};
+  border: ${props => props.outline ? `solid 2px ${props.color}` : 0};
   background: transparent;
   transition: all 0.3s ease-in-out;
   &:hover, &:focus, &:active {
     color: #774EBD;
-    background: ${props => props.outline ? 'white' : 'transparent'};
+    background: ${props => props.outline ? props.color : 'transparent'};
     //border: solid 2px white;
   }
 `
 
-const SocialButton = ({ to, icon, target = "_blank", size = 50, outline }) => (
+const SocialButton = ({ to, icon, target = "_blank", size = 50, outline, colour = 'white' }) => (
   <Button
     target={target}
     href={to}
     size={size}
+    color={colour}
     outline={!!outline}
   >
     <i className={`fa fa-fw fa-${icon}`}></i>

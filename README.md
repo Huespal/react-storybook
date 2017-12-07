@@ -32,7 +32,7 @@ We would like to have icons with no outline in the Navbar and icons with outline
 
 1. Create story for your `SocialButton` component
 2. Create different states of your `SocialButton` component - one with outline and another without
-3. Use knobs addon to be able to pass props to your component - add the functionality to your `SocialButton` story so we can change its size and icon.
+3. Use knobs addon to be able to pass props to your component - add the functionality to your `SocialButton` story so we can change its size and icon within the Storybook.
 
 #### Bonus
 
