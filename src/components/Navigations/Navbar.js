@@ -1,14 +1,5 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import SocialButton from '../Buttons/SocialButton'
-
-// styled-components have been imported for you already
-import styled from 'styled-components'
-
-// create styled-component called for each block of content with styles of appropriate classes
-// you can find those classes in the stylesheet in public/css/main.css
-
-
 
 const Navbar = () => (
   <nav className="navbar navbar-default navbar-fixed-top navbar-custom">

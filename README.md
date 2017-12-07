@@ -26,7 +26,6 @@ open the browser with the url `http://localhost:3000` and you will be ready to s
 2. We use `SocialButton` component in the `Navbar` at the top as well as in the `Footer` at the bottom however we would like to have different styling for each. Using template literals you can create a function within the styled-component and conditionally render different styles based on passed props.
 We would like to have icons with no outline in the Navbar and icons with outline in the Footer.
 3. We would like the SocialButtons in the `Navbar` be a little smaller than the ones in the `Footer` - pass the size of the button as a prop to your component.
-4. As you can see the Navbar has a lot o different classes, refactor Navbar into styled-components because those classes should not be used anywhere anyway.
 
 
 #### Storybook
