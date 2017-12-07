@@ -21,13 +21,13 @@ const Footer = () => (
             <h3>Around the Web</h3>
             <ul className="list-inline">
               <li>
-                <SocialButton to="https://github.com//leanjscom" icon="github" />
+                <SocialButton to="https://github.com//leanjscom" icon="github" outline />
               </li>
               <li>
-                <SocialButton to="https://twitter.com/leanjscom" icon="twitter" />
+                <SocialButton to="https://twitter.com/leanjscom" icon="twitter" outline />
               </li>
               <li>
-                <SocialButton to="https://www.instagram.com/leanjscom" icon="instagram" />
+                <SocialButton to="https://www.instagram.com/leanjscom" icon="instagram" outline />
               </li>
             </ul>
           </div>
