@@ -1,28 +1,39 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import SocialButton from '../Buttons/SocialButton'
 
-const Navbar = ({ toggleMenu }) => (
+// styled-components have been imported for you already
+import styled from 'styled-components'
+
+// create styled-component called for each block of content with styles of appropriate classes
+// you can find those classes in the stylesheet in public/css/main.css
+
+const Navbar = () => (
   <nav className="navbar navbar-default navbar-fixed-top navbar-custom">
     <div className="container">
       <div className="navbar-header">
-        <a className="navbar-brand" href="#page-top">LeanJS</a>
+        <a className="navbar-brand">LeanJS</a>
       </div>
       <ul className="nav navbar-nav pull-right">
         <li className="hidden-xs">
           <a href="#about">About the library</a>
         </li>
         <li>
-          <button onClick={ toggleMenu } className="btn btn-lg btn-outline">
-            <i className="fa fa-graduation-cap"></i> <span>Training</span>
-          </button>
+            <ul className="list-inline">
+                <li>
+                    <SocialButton to="https://github.com//leanjscom" icon="github" />
+                </li>
+                <li>
+                    <SocialButton to="https://twitter.com/leanjscom" icon="twitter" />
+                </li>
+                <li>
+                    <SocialButton to="https://www.instagram.com/leanjscom" icon="instagram" />
+                </li>
+            </ul>
         </li>
       </ul>
     </div>
   </nav>
 )
-
-Navbar.propTypes = {
-  toggleMenu: PropTypes.func.isRequired
-}
 
 export default Navbar
