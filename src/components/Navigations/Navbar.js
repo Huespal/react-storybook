@@ -9,7 +9,7 @@ import styled from 'styled-components'
 // you can find those classes in the stylesheet in public/css/main.css
 
 const Navbar = () => (
-  <nav className="navbar navbar-default navbar-fixed-top navbar-custom">
+  <nav className="navbar-fixed-top navbar-custom">
     <div className="container">
       <div className="navbar-header">
         <a className="navbar-brand">LeanJS</a>
