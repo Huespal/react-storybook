@@ -1,5 +1,4 @@
 import React from 'react'
-import FontAwesome from 'react-fontawesome';
 // styled components have been imported for you already
 import styled from 'styled-components'
 
