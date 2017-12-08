@@ -12,7 +12,7 @@ const Navbar = () => (
           <a href="#about">About the library</a>
         </li>
         <li>
-            <ul className="list-inline">
+            <ul className="list-inline" style={{padding: '15px 0'}}>
                 <li>
                     <SocialButton to="https://github.com//leanjscom" icon="github" size={30} />
                 </li>

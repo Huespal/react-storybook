@@ -7,12 +7,12 @@ import styled from 'styled-components'
 // you can find those classes in the stylesheet in public/css/main.css
 
 const Button = styled.a`
+  position: relative;
   display: inline-block;
   height: ${props => props.outline ? props.size : props.size/2}px;
   width: ${props => props.outline ? props.size : props.size/2}px;
   border-radius: 100%;
   text-align: center;
-  line-height: 45px;  
   color: ${props => props.color};
   font-size: ${props => props.size / 2}px;
   border: ${props => props.outline ? `solid 2px ${props.color}` : 0};
@@ -21,7 +21,12 @@ const Button = styled.a`
   &:hover, &:focus, &:active {
     color: #774EBD;
     background: ${props => props.outline ? props.color : 'transparent'};
-    //border: solid 2px white;
+  }
+  & > i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
   }
 `
 
