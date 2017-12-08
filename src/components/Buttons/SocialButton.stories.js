@@ -1,8 +1,6 @@
 import React from 'react';
 
-import { storiesOf } from '@storybook/react';
-import { action } from '@storybook/addon-actions';
-import { linkTo } from '@storybook/addon-links';
+import { storiesOf } from '@storybook/react'
 import { text, boolean, number } from '@storybook/addon-knobs'
 import { withInfo } from '@storybook/addon-info'
 
@@ -22,6 +20,7 @@ stories.add('default', withInfo()(() =>
         icon={text('Icon', 'twitter')}
         size={number('Size',80)}
         colour={text('Colour','black')}
+        outline={boolean('Outline', false)}
     />))
 
 stories.add('with outline', withInfo()(() =>
