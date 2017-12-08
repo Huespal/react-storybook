@@ -37,7 +37,8 @@ We would like to have icons with no outline in the Navbar and icons with outline
 
 #### Bonus
 
-1. Configuration of styled-components and Storybook.
+1. Add styled-components package to your project.
+2. Add Storybook to your project and configure it for your purposes.
 
 ## License
 
