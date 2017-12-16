@@ -1,5 +1,6 @@
 ## Styling in React
-The goal of this exercise it to learn styled-components and Storybook.
+This project is a guide to quick learn to style in React with styled components. 
+It also has an storybook to show all react components created. 
 
 ## Requirements
 You need to be comfortable writing ES6 JavaScript and CSS.
@@ -8,10 +9,10 @@ You need to have `node` and `npm` or `yarn` installed on your computer.
 ## Getting started
 you can either copy & paste this to your terminal
 
-- `git clone https://github.com/leanjscom/styling-in-react.git && cd styling-in-react && yarn install && yarn start`
+- `git clone https://github.com/Huespal/react-storybook && cd styling-in-react && yarn install && yarn start`
 
 or take the step by step route
-- `git clone https://github.com/leanjscom/styling-in-react.git`
+- `git clone https://github.com/Huespal/react-storybook`
 - `cd styling-in-react`
 - `yarn install`
 - `yarn start`
@@ -37,6 +38,8 @@ We would like to have icons with no outline in the Navbar and icons with outline
 #### Bonus
 
 1. Configuration of styled-components and Storybook.
+
+Exercises solutions are in '-sol' name ended branches.
 
 ## License
 
